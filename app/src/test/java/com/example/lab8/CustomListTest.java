@@ -53,6 +53,9 @@ public class CustomListTest {
         City vancouver = new City("Vancouver", "BC");
         City richmond = new City("Richmond", "BC");
         City burnaby = new City("Burnaby", "BC");
+        list.addCity(vancouver);
+        list.addCity(richmond);
+        list.addCity(burnaby);
         assertEquals(list.countCities(), 3);
     }
 
